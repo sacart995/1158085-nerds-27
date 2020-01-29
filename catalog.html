@@ -32,6 +32,30 @@
   <main class="inner-page container">
     <aside class="filter">
       <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+
+        <div class="price-filter">Стоимость:
+          <div class="range-control">
+            <div class="progress">
+              <div class="current-progress">
+                <div class="progress-button-wrapper">
+                  <button type="button"><span class="visually-hidden">стоимость от</span></button>
+                </div>
+                <div class="progress-button-wrapper">
+                  <button type="button"><span class="visually-hidden">стоимость до</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="range-display">
+            <label>От
+              <input type="text" name="min-price" value="0">
+            </label>
+            <label>До
+              <input type="text" name="max-price" value="15000">
+            </label>
+          </p>
+        </div>
+
         <div class="grid-filter">Сетка:
           <ul class="grid-list">
             <li>
@@ -84,7 +108,18 @@
     </aside>
 
     <section class="catalog">
-      <h2 class="visually-hidden">Каталог шаблонов</h2>
+      <div class="catalog-sorting">
+        <h3>Сортировать:</h3>
+        <ul class="type-sorting-list">
+          <li><a class="type-current">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По названию</a></li>
+        </ul>
+        <ul class="direction-sorting-list">
+          <li class="direction-current"><a><span class="visually-hidden">По убыванию</span></a></li>
+          <li><a href="#"><span class="visually-hidden">По возрастанию</span></a></li>
+        </ul>
+      </div>
       <ul class="catalog-list">
         <li class="catalog-item">
           <img src="img/sedona.jpg" alt="Шаблон Sedona" width="360" height="576">
@@ -147,10 +182,31 @@
           </div>
         </li>
       </ul>
+      <ul class="pagination-list">
+        <li class="pagination-item"><a class="current">1</a></li>
+        <li class="pagination-item"><a href="#">2</a></li>
+        <li class="pagination-item"><a href="#">3</a></li>
+        <li class="pagination-item"><a href="#" class="next-page">Следующая</a></li>
+      </ul>
     </section>
   </main>
 
   <footer>
+    <section class="contacts">
+      <img src="img/map.jpg" alt="Дизайн-студия NЁRDS расположена по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"
+        width="1440" height="416">
+      <img src="img/map-marker.png" alt="Указатель на карте Дизайн-студии NЁRDS по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"
+        width="115" height="191">
+      <div class="container">
+        <div class="contacts-info">
+          <h2>NЁRDS DESIGN STUDIO</h2>
+          <p class="contacts-info-text">191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</p>
+          <p class="contacts-info-text">тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+          <a class="write-us button" href="#">Напишите нам</a>
+        </div>
+      </div>
+    </section>
+
     <section class="social">
       <div class="container">
         <h2 class="visually-hidden">Социальные сети</h2>
