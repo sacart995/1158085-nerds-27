@@ -16,7 +16,7 @@
         <ul class="site-navigation">
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
-          <li><a class="current" href="#">Магазин</a></li>
+          <li><a class="current" href="catalog.html">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
         <a class="user-navigation" href="#">Корзина
@@ -263,5 +263,28 @@
       </div>
     </section>
   </footer>
+
+  <section class="modal modal-contacts">
+    <h2>Напишите нам</h2>
+    <form class="contacts-form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="modal-contacts-row">
+        <p>
+          <label for="name">Ваше имя:</label>
+          <input id="name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="email">Ваш e-mail:</label>
+          <input id="email" type="text" name="email" placeholder="email@example.com">
+        </p>
+      </div>
+      <p>
+        <label for="message">Текст письма:</label>
+        <textarea id="message" name="message" placeholder="В свободной форме"></textarea>
+      </p>
+      <button class="button" type="submit">Отправить</button>
+    </form>
+    <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
+  </section>
+
 </body>
 </html>
