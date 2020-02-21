@@ -137,7 +137,7 @@
           </div>
         </li>
         <li class="catalog-item">
-          <img src="img/pink.jpg" alt="Шаблон Ping App" width="360" height="576">
+          <img src="img/pink.jpg" alt="Шаблон Ping App" width="360" height="590">
           <div class="catalog-item-description">
             <div class="description-container">
               <a href="#"><h3>Pink App</h3></a>
@@ -198,18 +198,20 @@
 
   <footer>
 
-      <section class="contacts">
-        <img src="img/map.jpg" alt="Дизайн-студия NЁRDS расположена по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"
-          width="1440" height="416">
-        <div class="container">
-          <div class="contacts-info">
-            <h2>nёrds design studio</h2>
-            <p class="contacts-info-text"><a href="https://yandex.ru/map-widget/v1/?um=constructor%3A47690c3ef88963851873a0b20d6c601373bc5dc3afeb0ccc628b90ce2ea903ad&amp;source=constructor" target="_blank">191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</a></p>
-            <p class="contacts-info-text">тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
-            <a class="write-us button" href="form.html">Напишите нам</a>
-          </div>
+    <section class="contacts">
+      <h2 class="visually-hidden">Контакты</h2> 
+      <div class="container">
+        <div class="contacts-info">
+          <h2>nёrds design studio</h2>
+          <p class="contacts-info-text"><a
+              href="https://yandex.ru/map-widget/v1/?um=constructor%3A47690c3ef88963851873a0b20d6c601373bc5dc3afeb0ccc628b90ce2ea903ad&amp;source=constructor"
+              target="_blank">191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</a></p>
+          <p class="contacts-info-text">тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+          <a class="write-us button" href="form.html">Напишите нам</a>
         </div>
-      </section>
+      </div>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A47690c3ef88963851873a0b20d6c601373bc5dc3afeb0ccc628b90ce2ea903ad&amp;source=constructor" width="1440" height="416"></iframe>  
+    </section>
   
       <section class="social">
         <div class="container">
@@ -245,21 +247,23 @@
         <div class="modal-contacts-row">
           <div>
             <label for="name">Ваше имя:</label>
-            <input id="name" type="text" name="name" placeholder="Имя Фамилия">
+            <input id="name" type="text" name="name" required placeholder="Имя Фамилия">
           </div>
           <div>
             <label for="email">Ваш e-mail:</label>
-            <input id="email" type="email" name="email" placeholder="email@example.com">
+            <input id="email" type="email" name="email" required placeholder="email@example.com">
           </div>
         </div>
         <p>
           <label for="message">Текст письма:</label>
-          <textarea id="message" name="message" placeholder="В свободной форме"></textarea>
+          <textarea id="message" name="message" required placeholder="В свободной форме"></textarea>
         </p>
         <button class="button" type="submit">Отправить</button>
       </form>
       <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
   </section>
-  
+
+  <script src="js/script.js"></script>
+
 </body>
 </html>
