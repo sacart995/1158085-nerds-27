@@ -40,6 +40,8 @@ img {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+
+    transition: 0.4s;
 }
 
 .button:hover,
@@ -75,6 +77,8 @@ img {
 .main-header .header-logo {
     width: 160px;
     height: 65px;
+
+    transition: 0.4s;
 }
 
 .main-header ul {
@@ -125,6 +129,8 @@ ul.user-navigation {
     line-height: 30px;
     color: #000000;
     text-transform: uppercase;
+
+    transition: 0.4s;
 }
 
 .site-navigation a.current::after,
@@ -300,6 +306,8 @@ ul.user-navigation {
 
 .services-item:nth-child(2) .button {
     background-color: #00ca74;
+
+    transition: 0.4s;
 }
 
 .services-item:nth-child(2) .button:hover,
@@ -313,6 +321,8 @@ ul.user-navigation {
 
 .services-item:nth-child(3) .button {
     background-color: #efc84a;
+
+    transition: 0.4s;
 }
 
 .services-item:nth-child(3) .button:hover,
@@ -366,6 +376,13 @@ ul.user-navigation {
     text-transform: uppercase;
 }
 
+.about-us-text h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
 .about-us-text .about-us-list {
     margin: 0;
     padding: 0;
@@ -387,7 +404,7 @@ ul.user-navigation {
     left: 0;
 
     width: 25px;
-    height: 5px;
+    height: 3px;
 
     background-color: #fb565a;
 }
@@ -433,11 +450,10 @@ ul.user-navigation {
 .about-us-table td {
     width: 35%;
     font-size: 35px;
-
 }
 
 .about-us-table sup {
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .partners {
@@ -514,6 +530,8 @@ ul.user-navigation {
     justify-content: center;
 
     opacity: 0.3;
+
+    transition: 0.5s;
 }
 
 .partners-list-item a:hover,
@@ -538,15 +556,14 @@ ul.user-navigation {
     overflow: hidden;
 }
 
-.contacts img {
-    position: absolute;
-
-    top: 0;
-    left: 50%;
+.contacts iframe {
+    position: relative;
     z-index: 1;
-
+  
+    width: 100%;
     height: 416px;
-    transform: translateX(-50%);
+  
+    border: none;
 }
 
 .contacts-info {
@@ -630,7 +647,7 @@ main.inner-page {
 }
 
 .price-filter p {
-    padding-bottom: 48px;
+    margin-bottom: 56px;
 }
 
 .price-filter .range-control {
@@ -732,10 +749,13 @@ main.inner-page {
 
 fieldset.grid-filter {
     padding-bottom: 24px;
+
+    transition: 2.4s;
 }
 
 fieldset.features-filter {
     padding-bottom: 26px;
+
 }
 
 .grid-filter li,
@@ -788,6 +808,7 @@ fieldset.features-filter {
 
     background-repeat: no-repeat;
     opacity: 0.4;
+
 }
 
 .filter-input:checked + label::before {
@@ -860,7 +881,7 @@ fieldset.features-filter {
 
 .catalog-sorting {
     display: flex;
-    padding-bottom: 54px;
+    padding-bottom: 40px;
 }
 
 .catalog-sorting h3 {
@@ -896,6 +917,7 @@ ul.type-sorting-list {
     text-transform: uppercase;
 
     opacity: 0.3;
+
 }
 
 .type-sorting-list a:hover,
@@ -969,16 +991,20 @@ ul.type-sorting-list {
 
     background-image: url("../img/browser.svg");
     background-repeat: no-repeat;
+
+    transition: 0.6s;
 }
 
 .catalog-item:hover::before {
     background-image: url("../img/browser-hover.svg");
+
 }
 
 .catalog-item img {
     width: 360px;
     height: 576px;
     padding-top: 40px;
+
 }
 
 .catalog-item-description {
@@ -989,7 +1015,7 @@ ul.type-sorting-list {
     width: 100%;
     min-height: 231px;
 
-    background-color: #eeeeee;
+    background-color: #eeeeee;  
 }
 
 .catalog-item:hover {
@@ -1015,6 +1041,8 @@ ul.type-sorting-list {
     text-align: center;
     color: #000000;
     text-transform: uppercase;
+
+    transition: 0.6s; 
 }
 
 .catalog-item-description h3:hover {
@@ -1060,6 +1088,8 @@ ul.type-sorting-list {
 
     background-color: #eeeeee;
     border-radius: 4px;
+
+    transition: 0.6s; 
 }
 
 .pagination-list li {
@@ -1069,14 +1099,14 @@ ul.type-sorting-list {
 .pagination-list .current {
     background-color: #ffffff;
     box-shadow: inset 0 0 0 3px #dbdbdb;
-  }
+}
   
-  .pagination-list a[href]:hover,
-  .pagination-list a[href]:focus {
+.pagination-list a[href]:hover,
+.pagination-list a[href]:focus {
     background-color: #dfdfdf;
-  }
+}
   
-  .pagination-list a[href]:active {
+.pagination-list a[href]:active {
     color: rgba(0, 0, 0, 0.3);
   
     background-color: #d5d5d5;
@@ -1125,6 +1155,7 @@ ul.type-sorting-list {
   background:  url("../img/vk-icon.png") #e1e1e1 no-repeat;
   background-position: center;
 
+  transition: 0.6s; 
 }
 
 .social-list .social-button-fb {
@@ -1138,6 +1169,8 @@ ul.type-sorting-list {
 
   background:  url("../img/fb-icon.png") #e1e1e1 no-repeat;
   background-position: center;
+
+  transition: 0.6s; 
 }
 
 .social-list .social-button-insta {
@@ -1151,6 +1184,8 @@ ul.type-sorting-list {
 
   background:  url("../img/it-icon.png") #e1e1e1 no-repeat;
   background-position: center;
+
+  transition: 0.6s;
 }
 
 .social .social-text {
@@ -1193,6 +1228,10 @@ ul.type-sorting-list {
 .modal {
     display: none;
 }
+
+.modal-show {
+    display: block;
+  }
 
 .modal-contacts {
     position: fixed;
