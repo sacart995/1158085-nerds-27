@@ -14,7 +14,7 @@
     <div class="container">
       <nav class="main-navigation">
         <a class="header-logo" href="index.html">
-          <img src="img/nerds-logo.png" alt="Лого дизайн-студии «Нёрдс»" width="160" height="65">
+          <img src="img/nerds-logo.svg" alt="Лого дизайн-студии «Нёрдс»" width="160" height="65">
         </a>
         <ul class="site-navigation">
           <li><a href="#">Студия</a></li>
@@ -116,18 +116,18 @@
       <div class="catalog-sorting">
         <h3>Сортировать:</h3>
         <ul class="type-sorting-list">
-          <li><a href="#" class="type-current">По цене</a></li>
+          <li><a href="#">По цене</a></li>
           <li><a href="#">По типу</a></li>
           <li><a href="#">По названию</a></li>
         </ul>
         <ul class="direction-sorting-list">
-          <li class="direction-current"><a><span class="visually-hidden">По убыванию</span></a></li>
+          <li class="rotation-down"><a href="#" ><span class="visually-hidden">По убыванию</span></a></li>
           <li><a href="#"><span class="visually-hidden">По возрастанию</span></a></li>
         </ul>
       </div>
       <ul class="catalog-list">
         <li class="catalog-item">
-          <img src="img/sedona.jpg" alt="Шаблон Sedona" width="360" height="576">
+          <img src="img/sedona.png" alt="Шаблон Sedona" width="360" height="576">
           <div class="catalog-item-description">
             <div class="description-container">
               <a href="#"><h3>Sedona</h3></a>
@@ -137,7 +137,7 @@
           </div>
         </li>
         <li class="catalog-item">
-          <img src="img/pink.jpg" alt="Шаблон Ping App" width="360" height="590">
+          <img src="img/pink.png" alt="Шаблон Ping App" width="360" height="590">
           <div class="catalog-item-description">
             <div class="description-container">
               <a href="#"><h3>Pink App</h3></a>
@@ -147,7 +147,7 @@
           </div>
         </li>
         <li class="catalog-item">
-          <img src="img/barbershop.jpg" alt="Шаблон Barbershop" width="360" height="576">
+          <img src="img/barbershop.png" alt="Шаблон Barbershop" width="360" height="576">
           <div class="catalog-item-description">
             <div class="description-container">
               <a href="#"><h3>Barbershop</h3></a>
@@ -157,7 +157,7 @@
           </div>
         </li>
         <li class="catalog-item">
-          <img src="img/mishka.jpg" alt="Шаблон MISHKA" width="360" height="576">
+          <img src="img/mishka.png" alt="Шаблон MISHKA" width="360" height="576">
           <div class="catalog-item-description">
             <div class="description-container">
               <a href="#"><h3>MISHKA</h3></a>
@@ -167,7 +167,7 @@
           </div>
         </li>     
         <li class="catalog-item">
-          <img src="img/aplus.jpg" alt="Шаблон A Plus" width="360" height="576">
+          <img src="img/aplus.png" alt="Шаблон A Plus" width="360" height="576">
           <div class="catalog-item-description">
             <div class="description-container">
               <a href="#"><h3>A Plus</h3></a>
@@ -177,7 +177,7 @@
           </div>
         </li>     
         <li class="catalog-item">
-          <img src="img/kvast.jpg" alt="Шаблон КВАСТ" width="360" height="576">
+          <img src="img/kvast.png" alt="Шаблон КВАСТ" width="360" height="576">
           <div class="catalog-item-description">
             <div class="description-container">
               <a href="#"><h3>КВАСТ</h3></a>
@@ -207,7 +207,7 @@
               href="https://yandex.ru/map-widget/v1/?um=constructor%3A47690c3ef88963851873a0b20d6c601373bc5dc3afeb0ccc628b90ce2ea903ad&amp;source=constructor"
               target="_blank">191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</a></p>
           <p class="contacts-info-text">тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
-          <a class="write-us button" href="form.html">Напишите нам</a>
+          <a class="write-us button">Напишите нам</a>
         </div>
       </div>
       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A47690c3ef88963851873a0b20d6c601373bc5dc3afeb0ccc628b90ce2ea903ad&amp;source=constructor" width="1440" height="416"></iframe>  
@@ -247,16 +247,16 @@
         <div class="modal-contacts-row">
           <div>
             <label for="name">Ваше имя:</label>
-            <input id="name" type="text" name="name" required placeholder="Имя Фамилия">
+            <input id="name" type="text" pattern="[A-Za-zА-Яа-яЁё]" name="name" placeholder="Имя Фамилия">
           </div>
           <div>
             <label for="email">Ваш e-mail:</label>
-            <input id="email" type="email" name="email" required placeholder="email@example.com">
+            <input id="email" type="email" name="email" placeholder="email@example.com">
           </div>
         </div>
         <p>
           <label for="message">Текст письма:</label>
-          <textarea id="message" name="message" required placeholder="В свободной форме"></textarea>
+          <textarea id="message" name="message" placeholder="В свободной форме"></textarea>
         </p>
         <button class="button" type="submit">Отправить</button>
       </form>
