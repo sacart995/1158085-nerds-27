@@ -1373,7 +1373,7 @@ ul.type-sorting-list {
     padding: 68px 100px 85px 100px;
 
     background: #ffffff;
-    box-shadow:  0 0 0 3000px rgba(65, 63, 63, 0.5);
+    box-shadow:  0 0 50px 0 rgba(29, 27, 27, 0.5);
 }
 
 .modal-contacts-row {
