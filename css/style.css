@@ -32,8 +32,8 @@ img {
     line-height: 18px;
     vertical-align: middle;
     text-align: center;
-    color: #ffffff;
     text-transform: uppercase;
+    color: #f8f8f8;
 
     background-color: #fb565a;
 
@@ -172,6 +172,7 @@ ul.user-navigation {
   color: rgba(0, 0, 0, 0.3);
 }
 
+
 .site-navigation a {
     padding: 0 23px;
 }
@@ -242,6 +243,7 @@ ul.user-navigation {
 }
 
 .slider-controls button {
+    position: relative;  
     width: 18px;
     height: 18px;
     margin-right: 10px;
@@ -732,12 +734,15 @@ main.inner-page {
 }
 
 .progress-button-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: absolute;
     top: -9px;
 }
 
 .current-progress .progress-button-wrapper:last-child {
-    left: 140px;
+    left: 130px;
 }
 
 .progress button {
