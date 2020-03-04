@@ -65,7 +65,7 @@
           <ul class="grid-list">
             <li>
               <input class="filter-input filter-input-radio visually-hidden" id="adaptive" type="radio" name="grid"
-                value="adaptive" checked>
+                value="adaptive" checked disabled>
               <label for="adaptive">Адаптивная</label>
             </li>
             <li>
@@ -84,7 +84,7 @@
           <ul class="features-list">
             <li>
               <input class="filter-input filter-input-checkbox visually-hidden" id="slider" type="checkbox" name="slider"
-                checked>
+                checked disabled>
               <label for="slider">Слайдер</label>
             </li>
             <li>
@@ -94,7 +94,7 @@
             </li>
             <li>
               <input class="filter-input filter-input-checkbox visually-hidden" id="news" type="checkbox" name="news"
-                checked>
+                checked disabled>
               <label for="news">Новости</label>
             </li>
             <li>
@@ -247,7 +247,7 @@
         <div class="modal-contacts-row">
           <div>
             <label for="name">Ваше имя:</label>
-            <input id="name" type="text" pattern="[A-Za-zА-Яа-яЁё]" name="name" placeholder="Имя Фамилия">
+            <input id="name" type="text" pattern="^[А-Яа-яЁё\s]+$" name="name" placeholder="Имя Фамилия">
           </div>
           <div>
             <label for="email">Ваш e-mail:</label>
