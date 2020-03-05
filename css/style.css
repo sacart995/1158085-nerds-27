@@ -1093,9 +1093,10 @@ ul.type-sorting-list {
 }
 
 .catalog-item img {
-    width: 360px;
-    height: 576px;
-
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     padding-top: 40px;
 }
 
@@ -1367,9 +1368,11 @@ ul.type-sorting-list {
 .modal-contacts {
     position: fixed;
 
-    top: 156px;
+    top: 50%;
     left: 50%;
     z-index: 3;
+    transform: translateY(-292px);
+
 
     width: 760px;
 
