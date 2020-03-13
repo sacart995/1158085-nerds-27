@@ -19,7 +19,7 @@ img {
     position: relative;
     width: 1160px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 0px;
 }
 
 .button {
@@ -107,6 +107,7 @@ a[href].header-logo:active {
 ul.site-navigation,
 ul.user-navigation {
     padding-top: 26px;
+    padding-bottom: 26px;
 }
 
 ul.site-navigation {
@@ -152,7 +153,7 @@ ul.user-navigation {
   content: "";
   position: absolute;
   right: 23px;
-  bottom: 4px;
+  top: 33px;
   left: 23px;
 
   height: 2px;
@@ -221,7 +222,7 @@ ul.user-navigation {
 
 .slider-description h2 {
     margin: 0;
-    padding-top: 77px;
+    padding-top: 60px;
     padding-right: 60px;
     padding-bottom: 12px;
 
@@ -238,15 +239,15 @@ ul.user-navigation {
 
 .slider-controls {
     position: absolute;
-    bottom: 65px;
-    left: calc(50% - 46px);
+    bottom: 89px;
+    left: calc(50% - 42px);
 }
 
 .slider-controls button {
     position: relative;  
     width: 18px;
     height: 18px;
-    margin-right: 10px;
+    margin-right: 12px;
 
     background-color: rgb(255, 255, 255);
     border: none;
@@ -262,7 +263,7 @@ ul.user-navigation {
     width: 4px;
     height: 4px;
 
-    border: 2px solid #eeeeee;
+    border: 2px solid #000000;
     border-radius: 50%;
 }
 
@@ -273,10 +274,18 @@ ul.user-navigation {
 /* MAIN - START */
 
 .services {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
 
     border-bottom: 2px solid #eeeeee;
 }
+
+/*.services ul{
+    padding-right: 60px;
+
+    border-bottom: 2px solid #eeeeee;
+}*/
 
 .services .services-list {
     display: -webkit-box;
@@ -288,14 +297,16 @@ ul.user-navigation {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 0;
-    padding: 0;
+    padding-inline-start: 0px;
 
     list-style: none;
 }
 
 .services-item {
     width: 300px;
-    margin-right: 60px;
+    /* margin-right: 6px; */
+    /*margin-left: 20px;
+    margin-right: 30px;*/
 }
 
 .services-item img {
@@ -308,7 +319,7 @@ ul.user-navigation {
     margin: 0;
     margin-top: 23px;
     margin-bottom: 17px;
-
+    
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
@@ -323,6 +334,7 @@ ul.user-navigation {
 
 .services-item .button {
     padding: 16px 40px;
+    /*margin-right: 6px;*/
 }
 
 .services-item:nth-child(2) .button {
@@ -366,20 +378,20 @@ ul.user-navigation {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-top: 39px;
-    padding-bottom: 49px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 
     border-bottom: 2px solid #eeeeee;
 }
 
 .about-us .column-left {
     width: 660px;
-    padding-top: 41px;
+    padding-top: 30px;
 }
 
 .about-us .column-right {
     width: 360px;
-    padding-top: 41px;
+    padding-top: 26px;
 }
 
 .about-us-text .title {
@@ -395,7 +407,7 @@ ul.user-navigation {
 }
 
 .about-us-text p:last-of-type {
-    margin-top: 39px;
+    margin-top: 33px;
     margin-bottom: 24px;
 }
 
@@ -403,6 +415,7 @@ ul.user-navigation {
     font-weight: bold;
     color: #000000;
     text-transform: uppercase;
+    letter-spacing: 0.1px;
 }
 
 .about-us-text h3 {
@@ -410,10 +423,15 @@ ul.user-navigation {
     font-weight: bold;
     color: #000000;
     text-transform: uppercase;
+    letter-spacing: 0.1px;
+
+    margin-top: 39px;
+    margin-bottom: 26px;
 }
 
 .about-us-text .about-us-list {
-    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 40px;
     padding: 0;
 
     list-style: none;
@@ -435,7 +453,7 @@ ul.user-navigation {
     width: 25px;
     height: 3px;
 
-    background-color: #fb565a;
+    background-color: #eeeeee;
 }
 
 .about-us-info img {
@@ -449,7 +467,8 @@ ul.user-navigation {
 }
 
 .about-us-table caption {
-    margin-bottom: 23px;
+    margin-bottom: 21px;
+    margin-left: 1px;
 
     font-weight: bold;
     color: #000000;
@@ -467,6 +486,10 @@ ul.user-navigation {
     line-height: 18px;
     font-size: 16px;
     text-align: left;
+
+    padding-top: 18px;
+    margin-right: 80px;
+    padding-right: 10px;
 }
 
 .about-us-table tbody {
@@ -477,13 +500,18 @@ ul.user-navigation {
 }
 
 .about-us-table td {
+    padding-top: 18px;
+    margin-right: 80px;
+    padding-right: 5px;
     width: 35%;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .about-us-table sup {
     font-size: 25px;
 }
+
+
 
 .partners {
     padding-bottom: 81px;
@@ -506,6 +534,7 @@ ul.user-navigation {
     padding-top: 48px;
     padding-bottom: 36px;
 
+
     list-style: none;
 
     border-bottom: 2px solid #eeeeee;
@@ -514,15 +543,15 @@ ul.user-navigation {
 .partners-list li {
     position: relative;
 
-    margin-bottom: 24px;
-    padding-left: 15px;
+    margin-bottom: 15px;
+    padding-left: 3px;
 }
 
 .partners-list li:nth-child(2):after {       
     content: "";
     position: absolute;
 
-    top: 15px;
+    top: 5px;
     left: 0;
 
     width: 2px;
@@ -614,11 +643,11 @@ ul.user-navigation {
 
 .contacts-info {
     position: absolute;
-    top: 52px;
+    top: 45px;
     z-index: 2;
 
     width: 220px;
-    padding: 48px 50px 47px 50px;
+    padding: 45px 55px 45px 45px;
 
     background-color: #ffffff;
 }
@@ -629,13 +658,26 @@ ul.user-navigation {
     line-height: 30px;
     color: #000000;
     text-transform: uppercase;
+
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
-.contacts-info-text,
+.contacts-info-text {
+    line-height: 18px;
+    color: #666666;
+
+    margin-top: 22px;
+}
+
 .contacts-info-text a {
     line-height: 18px;
     color: #666666;
+
+    margin-top: 3px;
+    padding-top: 5px;
 }
+
 
 .contacts-info .write-us {
     margin-top: 23px;
@@ -652,7 +694,7 @@ ul.user-navigation {
 
 .page-title h1 {
     margin: 0;
-    padding-top: 78px;
+    padding-top: 60px;
     padding-bottom: 109px;
 
     font-weight: 500;
@@ -669,7 +711,7 @@ main.inner-page {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-top: 54px;
+    padding-top: 35px;
     padding-bottom: 72px;
 }
 
@@ -697,7 +739,7 @@ main.inner-page {
 }
 
 .price-filter p {
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 
 .price-filter .range-control {
@@ -727,7 +769,7 @@ main.inner-page {
 .range-control .current-progress {
     position: relative;
 
-    width: 150px;
+    width: 160px;
     height: 2px;
 
     background-color: #00ca74;
@@ -742,7 +784,7 @@ main.inner-page {
 }
 
 .current-progress .progress-button-wrapper:last-child {
-    left: 130px;
+    left: 140px;
 }
 
 .progress button {
@@ -930,6 +972,7 @@ fieldset.features-filter {
 .filter-form .button {
     width: 100%;
 
+    margin-top: 26px;
     color: #000000;
     background-color: #eeeeee;
 }
@@ -953,7 +996,7 @@ fieldset.features-filter {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 40px;
+    padding-bottom: 36px;
 }
 
 .catalog-sorting h3 {
@@ -963,6 +1006,8 @@ fieldset.features-filter {
     font-size: 18px;
     color: #000000;
     text-transform: uppercase;
+
+    padding-top: 1px;
 }
 
 .catalog-sorting ul {
@@ -981,7 +1026,7 @@ ul.type-sorting-list {
 }
 
 .type-sorting-list li {
-    margin: 20px 20px 0px 0px;
+    margin: 20px 25px 0px 0px;
 }
 
 .type-sorting-list a {
@@ -1060,7 +1105,6 @@ ul.type-sorting-list {
     padding-bottom: 41px;
   
     list-style: none;
-  
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     -ms-flex-wrap: wrap;
@@ -1117,7 +1161,6 @@ ul.type-sorting-list {
   
 .description-container {
     padding: 0 60px;
-    max-height: 231px;
     text-align: center;
     overflow: hidden;
 	text-overflow: ellipsis;
@@ -1133,17 +1176,20 @@ ul.type-sorting-list {
     color: #000000;
     text-transform: uppercase;
 }
-  
+
 .catalog-item-description p {
     margin-bottom: 29px;
-  
     line-height: 18px;
     text-align: center;
     color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 90px;
 }
   
 .catalog-item-description .button {
     padding: 16px 60px;
+    margin-bottom: 43px;
 }
   
 .catalog-item-description .button:active {
