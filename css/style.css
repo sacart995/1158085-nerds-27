@@ -543,18 +543,20 @@ ul.user-navigation {
     position: relative;
 
     margin-bottom: 24px;
-    padding-left: 15px;
+    padding-right: 5px;
 }
 
 .partners-list li:nth-child(2):after {       
     content: "";
     position: absolute;
 
-    top: 15px;
-    left: 0;
+    top: 16px;
+    left: -19px;
+
+    margin-bottom: 24px;
 
     width: 2px;
-    height: 60px;
+    height: 52px;
 
     background-color: #cac7c7;
 }
@@ -563,11 +565,11 @@ ul.user-navigation {
     content: "";
     position: absolute;
     
-    top: 15px;
-    left: 0;
+    bottom: 3px;
+    left: -19px;
 
     width: 2px;
-    height: 60px;
+    height: 52px;
 
     background-color: #cac7c7;
 }
@@ -577,10 +579,10 @@ ul.user-navigation {
     position: absolute;
 
     top: 15px;
-    left: 0;
+    left: -19px;
 
     width: 2px;
-    height: 60px;
+    height: 52px;
 
     background-color:  #cac7c7;;
 }
@@ -646,11 +648,13 @@ ul.user-navigation {
 
 .contacts-info {
     position: absolute;
-    top: 45px;
+    top: 39px;
     z-index: 2;
 
     width: 220px;
-    padding: 45px 55px 45px 45px;
+    /*padding: 45px 55px 45px 45px;  */
+
+    padding: 45px 55px 40px 45px;
 
     background-color: #ffffff;
 }
@@ -662,8 +666,8 @@ ul.user-navigation {
     color: #000000;
     text-transform: uppercase;
 
-    margin-top: 4px;
-    margin-left: 4px;
+    margin-top: 1px;
+    margin-left: 5px;
 }
 
 .contacts-info-text {
