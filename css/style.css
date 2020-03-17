@@ -275,7 +275,7 @@ ul.user-navigation {
 
 .services {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 
 
     border-bottom: 2px solid #eeeeee;
@@ -299,6 +299,7 @@ ul.user-navigation {
     margin: 0;
     margin-right: 59px;
     padding-inline-start: 0px;
+    padding-bottom: 30px;
 
     list-style: none;
 }
