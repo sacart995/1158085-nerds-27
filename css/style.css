@@ -319,7 +319,7 @@ ul.user-navigation {
 
 .services-item h3 {
     margin: 0;
-    margin-top: 23px;
+    margin-top: 27px;
     margin-bottom: 17px;
     
     font-weight: bold;
@@ -381,13 +381,13 @@ ul.user-navigation {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 
     border-bottom: 2px solid #eeeeee;
 }
 
 .about-us .column-left {
-    width: 660px;
+    width: 670px;
     padding-top: 30px;
 }
 
@@ -653,10 +653,9 @@ ul.user-navigation {
     top: 53px;
     z-index: 2;
 
-    width: 220px;
-    /*padding: 45px 55px 45px 45px;  */
+    width: 225px;
 
-    padding: 45px 55px 40px 45px;
+    padding: 45px 50px 47px 45px;
 
     background-color: #ffffff;
 }
@@ -699,10 +698,9 @@ p.contacts-info-text  {
     margin-bottom: 13px;
 }
 
-
 .contacts-info .write-us {
-    margin-top: 23px;
-    padding: 16px 44px;
+    margin-top: 21px;
+    padding: 15px 47px;
 }
 
 /*  MAIN - END    */
@@ -886,11 +884,15 @@ fieldset.features-filter {
 
 }
 
+.features-filter p {
+    margin-top: 22px;
+}
+
 .grid-filter li,
 .features-filter li {
     position: relative;
 
-    padding-bottom: 21px;
+    padding-bottom: 20px;
     padding-left: 37px;
 
     cursor: pointer;
@@ -1042,6 +1044,7 @@ ul.type-sorting-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     width: 300px;
     margin-left: auto;
 }
@@ -1112,8 +1115,6 @@ ul.type-sorting-list {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
 }
-
-
 
 .catalog-list {
     display: -webkit-box;
@@ -1217,7 +1218,6 @@ ul.type-sorting-list {
     color: #ffffff;
 }
   
-
 .pagination-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1277,7 +1277,7 @@ ul.type-sorting-list {
 .contacts-catalog {
     position: relative;
     height: 416px;
-    padding-bottom: 67px;
+    padding-bottom: 69px;
     width: auto;
 
     overflow: hidden;
@@ -1314,16 +1314,13 @@ ul.type-sorting-list {
     text-transform: uppercase;
 
     margin-top: 1px;
-    margin-left: 5px;
 }
 
 .contacts-info-text-catalog {
     line-height: 18px;
     color: #666666;
 
-    margin-top: 22px;
-    padding-left: 7px; 
-    padding-bottom: -2px;
+    margin-top: 20px 0;
 }
 
 .contacts-info-text-catalog a {
@@ -1334,7 +1331,7 @@ ul.type-sorting-list {
 }
 
 .contacts-info-catalog .write-us {
-    margin-top: 23px;
+    margin-top: 17px;
     padding: 16px 44px;
 }
 
