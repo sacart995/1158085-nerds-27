@@ -650,7 +650,7 @@ ul.user-navigation {
 
 .contacts-info {
     position: absolute;
-    top: 53px;
+    top: 43px;
     z-index: 2;
 
     width: 225px;
@@ -1265,7 +1265,6 @@ ul.type-sorting-list {
     background-color: #d5d5d5;
 }
 
-
 .pagination-item .next-page {
     padding: 15px 78px;
 }
@@ -1313,14 +1312,16 @@ ul.type-sorting-list {
     color: #000000;
     text-transform: uppercase;
 
-    margin-top: 1px;
+    margin-top: 2px;
+    margin-left: 5px;
 }
 
 .contacts-info-text-catalog {
     line-height: 18px;
     color: #666666;
 
-    margin-top: 20px 0;
+    margin-top: 21px;
+    padding-left: 7px; 
 }
 
 .contacts-info-text-catalog a {
