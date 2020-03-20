@@ -263,7 +263,7 @@ ul.user-navigation {
     width: 4px;
     height: 4px;
 
-    border: 2px solid #afadad;
+    border: 2px solid #c1c1c1;
     border-radius: 50%;
 }
 
@@ -453,9 +453,9 @@ ul.user-navigation {
     left: 0;
 
     width: 25px;
-    height: 3px;
+    height: 2px;
 
-    background-color: #eeeeee;
+    background-color: #fb565a;
 }
 
 .about-us-info img {
@@ -498,7 +498,7 @@ ul.user-navigation {
     font-weight: bold;
     font-size: 10px;
     line-height: 45px;
-    color: #000000;
+    color: #283136;
 }
 
 .about-us-table td {
